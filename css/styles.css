@@ -1,0 +1,16 @@
+:root{--ivory:#F7F3ED;--gold:#8C6B32;--ink:#141210}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Outfit,system-ui,sans-serif;background:var(--ivory);color:var(--ink)}
+.nav{position:sticky;top:0;background:rgba(247,243,237,.86);backdrop-filter:blur(16px);border-bottom:1px solid rgba(20,18,16,.08)}
+.nav-inner{max-width:1100px;margin:auto;padding:18px 20px;display:flex;justify-content:space-between;align-items:center;gap:16px}
+.logo{font-family:"Cormorant Garamond",serif;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);text-decoration:none;font-size:20px}
+.logo span{display:block;font-family:Outfit,sans-serif;font-size:9px;letter-spacing:.28em;color:#7a7268}
+.nav-links{display:flex;gap:20px;font-size:12px;letter-spacing:.1em;text-transform:uppercase}
+.nav-links a{color:#3a3530;text-decoration:none}
+.nav-links a.active{color:var(--gold)}
+.btn{display:inline-block;padding:12px 18px;border-radius:999px;background:linear-gradient(180deg,#C9A66B,#A57B3A);color:#fff;text-decoration:none;letter-spacing:.12em;text-transform:uppercase;font-size:12px}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--ink)}
+.hero{max-width:1100px;margin:auto;padding:80px 20px}
+.kicker{letter-spacing:.24em;text-transform:uppercase;font-size:11px;color:var(--gold);margin-bottom:12px}
+h1{font-family:"Cormorant Garamond",serif;font-size:clamp(40px,7vw,80px);font-weight:500;line-height:.95;margin-bottom:16px}
+.hero p{max-width:40ch;margin-bottom:22px;color:#3a3530}

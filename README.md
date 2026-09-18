@@ -1,2 +1,5 @@
-# by-jacobs-concept
-New By Jacobs website concept — separate from existing projects
+# By Jacobs Concept
+
+Nytt projekt. Rör inte befintliga repos.
+
+https://github.com/illanghost-99/by-jacobs-concept
