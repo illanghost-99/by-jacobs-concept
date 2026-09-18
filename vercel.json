@@ -1,3 +1,12 @@
 {
-  "cleanUrls": true
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/shop", "destination": "/shop.html" },
+    { "source": "/produkter", "destination": "/shop.html" },
+    { "source": "/products", "destination": "/shop.html" },
+    { "source": "/utforska", "destination": "/shop.html" },
+    { "source": "/boka", "destination": "/boka.html" },
+    { "source": "/salon", "destination": "/salon.html" },
+    { "source": "/kontakt", "destination": "/kontakt.html" }
+  ]
 }
