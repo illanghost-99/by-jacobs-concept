@@ -3,30 +3,92 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>By Jacobs — Koncept</title>
+  <title>By Jacobs — Salong & Hårvård, Drottninggatan 81</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Outfit:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
+  <div class="cursor" id="cursor"></div>
   <header class="nav">
-    <div class="nav-inner">
-      <a class="logo" href="index.html">By Jacobs<span>Koncept 2026</span></a>
-      <nav class="nav-links">
-        <a class="active" href="index.html">Hem</a>
-        <a href="salon.html">Salong</a>
-        <a href="boka.html">Boka</a>
-        <a href="shop.html">Shop</a>
+    <div class="wrap">
+      <a class="logo" href="index.html">By Jacobs<span>Stockholm</span></a>
+      <nav>
+        <a href="#tjanster">Tjänster</a>
+        <a href="#produkter">Produkter</a>
+        <a href="salon.html">Team</a>
         <a href="kontakt.html">Kontakt</a>
       </nav>
-      <a class="btn" href="boka.html">Boka tid</a>
+      <a class="btn gold pulse" href="boka.html">Boka tid</a>
     </div>
   </header>
   <section class="hero">
-    <p class="kicker">Drottninggatan 81 · 4.9</p>
-    <h1>Vi tar hand om dig.</h1>
-    <p>Nytt konceptprojekt. Premium salong och e-handel.</p>
-    <p><a class="btn" href="boka.html">Boka tid</a> <a class="btn ghost" href="shop.html">Shoppa</a></p>
+    <div class="hero-media">
+      <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=2000&q=80" alt="Glansigt hår" />
+      <div class="shimmer"></div>
+    </div>
+    <div class="hero-copy wrap reveal">
+      <p class="eyebrow">Drottninggatan 81 · 4.9 på Bokadirekt</p>
+      <h1>Vi tar<br><em>hand om dig.</em></h1>
+      <p class="lede">Familjesalong sedan 2015. Professionell hårvård, samma pris online som i butik.</p>
+      <div class="cta-row">
+        <a class="btn gold xl magnet" href="boka.html">Boka tid</a>
+        <a class="btn light xl magnet" href="shop.html">Shoppa produkter</a>
+      </div>
+      <div class="trust">
+        <span>Fri frakt över 700 kr</span>
+        <span>Click & Collect</span>
+        <span>1 360+ omdömen</span>
+      </div>
+    </div>
   </section>
+  <section class="strip">
+    <div class="marquee">
+      <span>Kérastase</span><span>Olaplex</span><span>K18</span><span>Redken</span><span>Kevin Murphy</span><span>Nioxin</span><span>Living Proof</span>
+      <span>Kérastase</span><span>Olaplex</span><span>K18</span><span>Redken</span><span>Kevin Murphy</span><span>Nioxin</span>
+    </div>
+  </section>
+  <section id="tjanster" class="wrap section">
+    <div class="head reveal">
+      <p class="eyebrow dark">Tjänster</p>
+      <h2>Det vi gör i stolen.</h2>
+    </div>
+    <div class="cards">
+      <a class="card reveal" href="boka.html">
+        <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=900&q=80" alt="Klippning" />
+        <div class="cap"><h3>Klippning</h3><p>Dam · Herr · Barn</p><span class="go">Boka →</span></div>
+      </a>
+      <a class="card reveal" href="kontakt.html">
+        <img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=900&q=80" alt="Färg" />
+        <div class="cap"><h3>Färg & slingor</h3><p>Bokas via telefon</p><span class="go">Ring →</span></div>
+      </a>
+      <a class="card reveal" href="boka.html">
+        <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=900&q=80" alt="Olaplex" />
+        <div class="cap"><h3>Olaplex</h3><p>Reparation i salong</p><span class="go">Boka →</span></div>
+      </a>
+    </div>
+  </section>
+  <section id="produkter" class="wrap section">
+    <div class="head reveal">
+      <p class="eyebrow dark">Produkter</p>
+      <h2>Hemvården som håller.</h2>
+    </div>
+    <div class="prods">
+      <a class="prod reveal" href="shop.html"><img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=700&q=80" alt="Genesis" /><h3>Kérastase Genesis</h3><p>479 kr</p></a>
+      <a class="prod reveal" href="shop.html"><img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=700&q=80" alt="K18" /><h3>K18 Leave-In</h3><p>549 kr</p></a>
+      <a class="prod reveal" href="shop.html"><img src="https://images.unsplash.com/photo-1617897903246-719242758050?auto=format&fit=crop&w=700&q=80" alt="Olaplex" /><h3>Olaplex No.3</h3><p>429 kr</p></a>
+      <a class="prod reveal" href="shop.html"><img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=700&q=80" alt="Oil" /><h3>Essence Absolue</h3><p>489 kr</p></a>
+    </div>
+    <p class="center"><a class="btn gold magnet" href="shop.html">Till shoppen</a></p>
+  </section>
+  <section class="cta-band">
+    <div class="wrap reveal">
+      <h2>Nästa tid väntar.</h2>
+      <p>Bashar, Yaqoob och Erica tar emot på Drottninggatan 81.</p>
+      <a class="btn gold xl pulse magnet" href="boka.html">Boka tid nu</a>
+    </div>
+  </section>
+  <footer class="wrap"><p>By Jacobs · Drottninggatan 81 · 08-40 90 94 64</p></footer>
+  <script src="js/app.js"></script>
 </body>
 </html>
